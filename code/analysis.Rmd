@@ -1,0 +1,115 @@
+---
+title: "feature_symmetry_analysis"
+author: "Maisy Hallam"
+date: "2023-02-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = here::here())
+library(tidyverse)
+
+```
+
+## R Markdown
+
+First, we import all the dataframes - three for the simulations, three for the
+kinbank data.
+
+```{r read dataframes}
+# sim_gender_data <- read_csv('data/frankenlanguages_gender.csv')
+# sim_age_data <- read_csv('data/frankenlanguages_age.csv')
+sim_lineage_data <- read_csv('data/frankenlanguages_lineage.csv')
+
+# real_gender_data <- read_csv('data/kinbank_gender.csv')
+# real_age_data <- read_csv('data/kinbank_age.csv')
+real_lineage_data <- read_csv('data/kinbank_lineage.csv')
+
+
+```
+
+Delete NA rows from the data, and remove any extra headings.
+
+```{r clean up the data}
+# sim_gender_data <- sim_gender_data[!(sim_gender_data$GENDER=='GENDER'),]
+# 
+# sim_age_data <- sim_age_data[!(sim_age_data$AGE=='AGE'),]
+# 
+sim_lineage_data <- sim_lineage_data[!(sim_lineage_data$LINEAGE=='LINEAGE'),]
+
+sim_lineage_data <- sim_lineage_data[!apply(is.na(sim_lineage_data_new) | sim_lineage_data_new == "", 1, all),]
+
+```
+
+Mutate the dataframes to include a column specifying whether the data was simulated
+or if it's from kinbank.
+
+```{r mutate the data}
+
+# sim_gender_data <- sim_gender_data %>%
+#   mutate(
+#     TYPE = 'simulated'
+#   )
+
+# sim_age_data <- sim_age_data %>%
+#   mutate(
+#     TYPE = 'simulated'
+#   )
+# 
+sim_lineage_data %>%
+  mutate(
+    TYPE = 'simulated'
+  )
+
+# real_gender_data <- real_gender_data %>%
+#   mutate(
+#     TYPE = 'kinbank'
+#   )
+
+# real_age_data <- real_age_data %>%
+#   mutate(
+#     TYPE = 'kinbank'
+#   )
+# 
+real_lineage_data %>%
+  mutate(
+    TYPE = 'kinbank'
+  )
+
+```
+
+Merge the two data frames for each feature.
+
+```{r merge the dataframes}
+# gender_data <- rbind(sim_gender_data, real_gender_data)
+# age_data <- rbind(sim_age_data,real_age_data)
+lineage_data <- rbind(sim_lineage_data,real_lineage_data)
+
+```
+
+Plot the gender data proportions to compare simulated and kinbank languages.
+
+```{r bar plot gender data}
+gender_data %>%
+  ggplot(aes(x=GENDER, fill=TYPE)) +
+  geom_bar(aes(y=..count../tapply(..count.., ..fill.. ,sum)[..fill..]), position='dodge')
+
+
+```
+
+
+```{r}
+age_data %>%
+  ggplot(aes(x=AGE, fill=TYPE)) +
+  geom_bar(aes(y=..count../tapply(..count.., ..fill.. ,sum)[..fill..]), position='dodge')
+```
+
+```{r}
+lineage_data %>%
+  ggplot(aes(x=LINEAGE, fill=TYPE)) +
+  geom_bar(aes(y=..count../tapply(..count.., ..fill.. ,sum)[..fill..]), position='dodge')
+```
+
+
+

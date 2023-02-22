@@ -1,0 +1,63 @@
+---
+title: "age_distribution"
+author: "Maisy Hallam"
+date: "2023-02-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = here::here())
+library(tidyverse)
+library(readr)
+```
+
+Import the age data. It has three columns: language number (1-1000),
+gender symmetry score, and set (which simulation it comes from.)
+
+```{r}
+age_sims <- list.files(path="data/age/new/",pattern="*.csv",full.names=TRUE)
+data <- do.call(rbind, lapply(age_sims, function(x) read.csv(x)))
+real_data <- read_csv('data/kinbank_age.csv')
+
+```
+
+```{r}
+data$AGE <- as.factor(data$AGE)
+```
+
+
+```{r}
+sym_proportion <- group_by(data,SET) %>%
+  summarise(
+    mean_symmetrical = mean(AGE == '[1, 1]')
+  )
+```
+
+```{r}
+sym_proportion
+```
+
+```{r}
+kinbank <- real_data %>%
+  summarise(
+    mean_symmetrical = mean(AGE == '[1, 1]')
+)
+```
+
+
+
+```{r}
+sym_proportion %>%
+  ggplot(aes(mean_symmetrical)) +
+  geom_density(fill = 'lightblue', alpha = 0.5) +
+  geom_vline(aes(xintercept = 0.1373), color="navy", linetype="dashed", size=0.5) +
+  labs(
+    title = 'Proportion of 1,1 gender symmetry scores',
+    color = legend) +
+  xlab('Proportion of 1,1 symmetry') +
+  scale_x_continuous(breaks = scales::pretty_breaks(n = 10))
+  
+```
+
+

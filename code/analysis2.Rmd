@@ -1,0 +1,14 @@
+---
+title: "analysis2"
+author: "Maisy Hallam"
+date: "2023-02-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = here::here())
+library(tidyverse)
+```
+
+
