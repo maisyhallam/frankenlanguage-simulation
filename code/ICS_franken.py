@@ -5,8 +5,8 @@ from collections import Counter
 
 # pairs is a dictionary showing which kinbank shorthands represent which family relationships
 # each tuple in pairs.values represents the pair of kin terms that will be compared for equality
-gen2 = [['mMB','mMeB','mMyB'],['mMZ','mMeZ','mMyZ'],['mFB','mFeB','mFyB'],['mFZ','mFeZ','mFyZ']]
-gen1 = [['mMBS'],['mMZS'],['mFBS'],['mFZS']] # just one child to keep things simple
+gen2 = ['mMB','mMeB','mMyB','mMZ','mMeZ','mMyZ','mFB','mFeB','mFyB','mFZ','mFeZ','mFyZ']
+gen1 = ['mMBS', 'mMBeS', 'mMByS','mMZS','mMZeS','mMZyS','mFBS','mFBeS','mFByS','mFZS','mFZeS','mFByS'] # just one child to keep things simple
 
 # {'siblings': [('meB','meZ'),('myB','myZ')],
 # 'm_siblings': [('mMeB','mMeZ'),('mMyB','mMyZ')],
@@ -38,33 +38,41 @@ def get_kin(file,directory):
             kin_terms[parameter] = word
     return kin_terms
 
-# def has_duplicates(seq):
-#     if any(seq.count(x) > 1 for x in seq):
+# def find_relevant_kin(generation):
+#     relevant_kin = []
+#     for kin_types in generation:
+#         # for j in i:
+#         #     index = generation2.index(j)
+#         #     if j == 'na'
+#         #     generation2.remove(j)
+#         #     generation1.remove(generation1[i][j])
+#         if len(set(kin_types)) == 1:
+#             relevant_kin.append([x for x in kin_types if x == kin_types[0]])
+#         elif len(set(kin_types)) == 2:
+#             relevant_kin.append(list(dict.fromkeys(kin_types)))
+#         else:
+#             continue
 #
+#     return relevant_kin
 
-def list_generations(ks):
-    generation1 = {}
-    generation2 = {}
-    for kin in gen2:
-        if kin[0] in ks.keys():
-            generation2[kin[0]] = ks[kin[0]]
+def list_generations(ks,gen):
+    """Returns a list of the kin terms for each kin type in gen, na if not available in the data."""
+    generation = []
+    for kin_type in gen:
+        placeholder = []
+        if kin_type in ks.keys():
+            placeholder.append(ks[kin_type])
         else:
-            generation2[kin[0]] = 'na'
-    for pair1,pair2 in gen1:
-        if pair1 in ks.keys():
-            generation1[pair1] = ks[pair1]
-        else:
-            generation1[pair1] = ('na')
-        if pair1 in ks.keys():
-            generation1[pair2] = ks[pair2]
-        else:
-            generation1[pair2] = ('na')
+            placeholder.append('na')
+        generation += placeholder
+    # generation = list(generation[i:i+3] for i in range(0,len(list(generation)),3)) # because there are 3 terms for each kin type right now
+    # relevant_kin = find_relevant_kin(generation)
+    # print(relevant_kin)
+    print(generation)
+    return generation
 
-    return generation1,generation2
 
-def find_relevant_kin():
-    for kin_types in gen:
-        for type in kin_types:
+
 
 # def find_duplicates(gen):
 #     seen = set()
@@ -78,25 +86,47 @@ def find_relevant_kin():
 #             seen.add(term)
 #     return dupes
 
-def enumerate_generation2(gen):
-    """Turn lists of Gen2 kin terms into lists of numbers. Each number indicates a unique kin term."""
-    gen_pattern = list(gen.values())
+def flatten(l):
+    return [item for sublist in l for item in sublist]
+
+def code_kin_types(gen):
+    codes = {}
+    placeholder = []
     code = 0
 
-    # for each unique item in gen_pattern
-    for item in set(gen_pattern):
-        code += 1
-        # for as many times as that item appears in gen pattern
-        while item in gen_pattern:
-            index = gen_pattern.index(item)
+    # code each unique item in gen_pattern
+    for kin_type in gen:
+        if kin_type in placeholder:
+            continue
+        elif kin_type == 'na':
+            placeholder.append(0)
+        else:
+            placeholder.append(kin_type)
+            code += 1
+            codes[kin_type] = code
+
+    return codes
+
+def enumerate_generation(gen):
+    """Turn lists of kin terms into lists of numbers. Each number indicates a unique kin term."""
+    codes = code_kin_types(gen)
+    code = 0
+
+    for kin_type in set(gen):
+
+        while kin_type in gen:
+            index = gen.index(kin_type)
+
             # label it 0 if na
-            if item == 'na':
-                gen_pattern[index] = 0
+            if kin_type == 'na':
+                gen[index] = 0
             # give it a unique number if anything else
             else:
-                gen_pattern[index] = code
+                gen[index] = codes[kin_type]
 
-    return gen_pattern
+    # gen_pattern = list(gen_pattern[i:i+length] for i in range(0,len(list(gen)),length))
+    print(gen)
+    return gen
 
 # def enumerate_generation1(gen):
 #     """Turn lists of Gen1 kin terms into lists of numbers. Each number indicates a unique kin term."""
@@ -119,12 +149,12 @@ def enumerate_generation2(gen):
 #                     gen_pattern[index] = code
 #                 gen.remove(item)
 #     return gen_pattern
-
-
-    gen_pattern = [list(gen.values())[i:i+2] for i in range(0,len(list(gen.values())),2)]
-
-    print(gen_pattern)
-    return gen_pattern
+#
+#
+#     gen_pattern = [list(gen.values())[i:i+2] for i in range(0,len(list(gen.values())),2)]
+#
+#     print(gen_pattern)
+#     return gen_pattern
 
 
 def check_pattern(pattern1,pattern2):
@@ -134,8 +164,7 @@ def check_pattern(pattern1,pattern2):
 
     # for each type of kin
     for i in range(4):
-        if pattern2 == pattern1: # order of the list matters: so same index of both lists will be the parent/child pair
-            print(pattern2[i],pattern1[i])
+        if pattern2[i] == pattern1[2]: # order of the list matters: so same index of both lists will be the parent/child pair
             if pattern1[i] == 0 or pattern2[i] == 0:
                 continue
             else:
@@ -143,68 +172,6 @@ def check_pattern(pattern1,pattern2):
         else:
             continue
     print(ICS_score/denominator)
-
-
-def check_feature_symmetry(ks):
-    """Checks whether the terms used in the language for each pair of kin terms match."""
-    results = {}
-
-    for kin in kin_types:
-        for pair in gender_pairs[kin]:
-            if pair[0] in ks.keys() and pair[1] in ks.keys():
-                if ks[pair[0]] == ks[pair[1]]:
-                    results[kin] = 0
-                else:
-                    results[kin] = 1
-            else:
-                continue
-        if kin not in results:
-            results[kin] = 'null'
-
-    return results
-
-def get_csv_files(path):
-    """Fetches a list of files from the directory located by the given filepath."""
-    directory = os.scandir(path)
-    files = []
-    for file in directory:
-        files.append(file.name)
-    return files
-
-def write_symmetry_csv(filename,file,symmetries):
-    """Writes a csv file with the name of each frankenlanguage file plus its symmetry score."""
-    with open(filename, 'a', encoding="utf8") as csv_file:
-        csvwriter = csv.writer(csv_file)
-        csvwriter.writerow([file] + symmetries)
-
-def generation_results(feature_symmetry_results):
-    """Gives each generation of a kinship system a score of 1 or 0 for whether or not it uses a gender distinction. A score is null if there wasn't enough information to tell."""
-    results = {}
-    gen1_values = []
-    gen2_values = []
-    for i in feature_symmetry_results:
-        if i in generation1:
-            gen1_values.append(feature_symmetry_results[i])
-        else:
-            gen2_values.append(feature_symmetry_results[i])
-
-    if 1 in gen1_values:
-        results['generation1'] = 1
-    elif 0 in gen1_values:
-        results['generation1'] = 0
-    elif 'null' in gen1_values:
-        results['generation1'] = 'null'
-
-    if 1 in gen2_values:
-        results['generation2'] = 1
-    elif 0 in gen2_values:
-        results['generation2'] = 0
-    elif 'null' in gen2_values:
-        results['generation2'] = 'null'
-
-    return results
-
-
 
 def write_full_csv(filename,language,generation_results):
     """Creates a list of a languages two generation scores, and writes the language name + score to a csv file if the score is not 'null'."""
@@ -232,22 +199,23 @@ def main(argv):
     for i in range(int(argv)):
         directory_counter += 1
         files = get_csv_files('../frankenlanguages/' + str(directory_counter))
-        write_headers('../data/frankenlanguages_gender.csv')
+        write_headers('../data/frankenlanguages_ICS.csv')
 
         for file in files:
             kin_terms = get_kin(file,str(directory_counter))
             feature_symmetry_results = check_feature_symmetry(kin_terms)
             gen_results = generation_results(feature_symmetry_results)
 
-            write_full_csv('../data/frankenlanguages_gender.csv',file + '_' + str(directory_counter),gen_results)
+            write_full_csv('../data/frankenlanguages_ICS.csv',file + '_' + str(directory_counter),gen_results)
 
 # if __name__ == '__main__':
 #     main(sys.argv[1])
 
 ks = get_kin('English_stan1293.csv','Indo-European')
-generation1,generation2 = list_generations(ks)
-gen1_pattern = enumerate_generation1(generation1)
+generation1 = list_generations(ks,gen1)
+generation2 = list_generations(ks,gen2)
+gen1_pattern = enumerate_generation(generation1)
 gen2_pattern = enumerate_generation(generation2)
 
-print(gen1_pattern,gen2_pattern)
+# print(gen1_pattern,gen2_pattern)
 check_pattern(gen1_pattern,gen2_pattern)
