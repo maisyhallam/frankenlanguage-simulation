@@ -1,0 +1,631 @@
+LANGUAGE,SCORE,mMBS,mMeBS,mMyBS,mMZS,mMeZS,mMyZS,mFBS,mFeBS,mFyBS,mFZS,mFeZS,mFyBS,mMB,mMeB,mMyB,mMZ,mMeZ,mMyZ,mFB,mFeB,mFyB,mFZ,mFeZ,mFyZ
+frankenlanguage10.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage100.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage1000.csv_570,0.2857142857142857,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage103.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage104.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage106.csv_570,1.0,na,na,na,na,na,na,na,na,na,taïlo,taïlo,na,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage107.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage110.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage111.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage114.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage115.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage117.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage118.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage119.csv_570,0.2857142857142857,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage12.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage122.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage123.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage129.csv_570,0.14285714285714285,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage13.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage131.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage134.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage135.csv_570,0.375,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage139.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage14.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage141.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage142.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage143.csv_570,1.0,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage144.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage145.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage146.csv_570,0.3333333333333333,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage148.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage150.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage151.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage152.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage153.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage155.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage156.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage157.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage16.csv_570,0.14285714285714285,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage161.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage162.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage163.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage166.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage167.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage168.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage170.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage171.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage172.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage174.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage176.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage177.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage179.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage18.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage181.csv_570,1.0,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage182.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage183.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage189.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage19.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage191.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage193.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage197.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage198.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage199.csv_570,0.2857142857142857,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage2.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage20.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage200.csv_570,0.14285714285714285,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage201.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage202.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage203.csv_570,0.14285714285714285,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage205.csv_570,0.5833333333333334,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage206.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage210.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage211.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage212.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage213.csv_570,0.2857142857142857,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage217.csv_570,0.14285714285714285,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage218.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage22.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage221.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage223.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage224.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage225.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage228.csv_570,0.3333333333333333,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage230.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage231.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage232.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage233.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage234.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage235.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage237.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage238.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage239.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage240.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage241.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage242.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage244.csv_570,0.42857142857142855,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage248.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage25.csv_570,0.14285714285714285,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage250.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage253.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage255.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage256.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage257.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage26.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage260.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage261.csv_570,1.0,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage264.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage267.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage269.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage27.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage270.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage273.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage274.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage275.csv_570,1.0,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage276.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage277.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage279.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage280.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage281.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage283.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage284.csv_570,1.0,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage286.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage287.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage288.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage289.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage29.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage290.csv_570,1.0,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage291.csv_570,0.42857142857142855,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage292.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage293.csv_570,0.25,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage294.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage295.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage298.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage3.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage301.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage302.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage304.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage305.csv_570,0.14285714285714285,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage307.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage308.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage31.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage310.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage311.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage315.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage316.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage318.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage32.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage320.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage323.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage324.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage327.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage328.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage331.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage332.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage336.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage337.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage338.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage339.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage34.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage340.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage341.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage342.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage343.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage35.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage350.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage353.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage355.csv_570,0.2857142857142857,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage358.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage359.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage36.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage360.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage361.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage362.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage364.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage365.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage367.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage368.csv_570,0.14285714285714285,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage369.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage370.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage371.csv_570,0.3333333333333333,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage372.csv_570,0.2857142857142857,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage373.csv_570,0.3333333333333333,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage375.csv_570,0.2857142857142857,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage376.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage377.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage378.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage379.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage38.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage381.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage382.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage383.csv_570,1.0,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage385.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage388.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage39.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage390.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage391.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage392.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage393.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage398.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage399.csv_570,0.9166666666666666,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage4.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage400.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage401.csv_570,0.14285714285714285,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage402.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage406.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage407.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage409.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage41.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage410.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage411.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage413.csv_570,0.375,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage414.csv_570,1.0,na,na,na,na,na,na,na,na,na,taïlo,taïlo,na,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage415.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage418.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage42.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage420.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage421.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage422.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage423.csv_570,0.3333333333333333,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage424.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage426.csv_570,0.14285714285714285,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage427.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage428.csv_570,1.0,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage43.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage430.csv_570,1.0,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage432.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage435.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage44.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage440.csv_570,0.14285714285714285,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage442.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage444.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage446.csv_570,0.3333333333333333,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage447.csv_570,1.0,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage448.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage449.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage45.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage450.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage451.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage452.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage453.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage454.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage455.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage456.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage459.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage46.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage460.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage461.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage462.csv_570,0.14285714285714285,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage463.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage466.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage467.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage468.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage469.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage47.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage471.csv_570,1.0,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage472.csv_570,1.0,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage473.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage474.csv_570,0.14285714285714285,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage476.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage477.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage478.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage479.csv_570,0.14285714285714285,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage48.csv_570,1.0,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage480.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage481.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage482.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage483.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage484.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage485.csv_570,1.0,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage486.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage487.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage489.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage49.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage491.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage492.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage493.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage494.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage495.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage497.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage498.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage499.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage5.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage500.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage501.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage502.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage507.csv_570,1.0,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage508.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage509.csv_570,1.0,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage51.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage512.csv_570,0.14285714285714285,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage513.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage514.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage515.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage519.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage52.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage520.csv_570,0.2857142857142857,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage524.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage525.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage526.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage527.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage528.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage529.csv_570,0.2857142857142857,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage53.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage530.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage533.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage537.csv_570,0.3333333333333333,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage538.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage539.csv_570,1.0,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage542.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage543.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage544.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage545.csv_570,0.2857142857142857,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage546.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage548.csv_570,0.42857142857142855,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage549.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage550.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage554.csv_570,1.0,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage555.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage556.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage557.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage558.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage559.csv_570,1.0,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage56.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage560.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage563.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage567.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage568.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage57.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage572.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage574.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage576.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage577.csv_570,0.14285714285714285,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage579.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage58.csv_570,0.3333333333333333,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage580.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage582.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage584.csv_570,0.2857142857142857,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage587.csv_570,1.0,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage588.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage589.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage59.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage590.csv_570,0.2857142857142857,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage594.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage595.csv_570,1.0,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage596.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage597.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage599.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage6.csv_570,1.0,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage60.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage600.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage601.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage602.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage603.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage604.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage605.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage607.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage608.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage609.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage61.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage610.csv_570,0.14285714285714285,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage612.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage614.csv_570,0.14285714285714285,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage615.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage616.csv_570,0.14285714285714285,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage617.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage618.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage619.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage620.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage621.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage623.csv_570,0.14285714285714285,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage624.csv_570,0.375,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage626.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage627.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage629.csv_570,0.14285714285714285,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage630.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage632.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage636.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage637.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage64.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage640.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage641.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage642.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage643.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage645.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage646.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage647.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage648.csv_570,0.14285714285714285,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage65.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage650.csv_570,0.375,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage651.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage652.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage653.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage655.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage656.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage657.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage659.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage66.csv_570,1.0,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage660.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage661.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage662.csv_570,1.0,na,na,na,na,na,na,na,na,na,taïlo,taïlo,na,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage663.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage665.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage666.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage667.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage668.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage669.csv_570,1.0,na,na,na,na,na,asowaala,na,na,na,na,na,na,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage670.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage671.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage672.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage673.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage675.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage676.csv_570,0.42857142857142855,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage677.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage678.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage681.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage682.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage683.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage684.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage685.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage688.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage69.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage691.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage693.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage695.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage697.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage698.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage699.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage7.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage70.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage702.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage703.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage704.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage705.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage71.csv_570,1.0,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage710.csv_570,1.0,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage711.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage712.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage713.csv_570,0.14285714285714285,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage716.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage717.csv_570,0.14285714285714285,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage718.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage719.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage72.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage722.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage723.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage724.csv_570,1.0,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage725.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage726.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage727.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage728.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage729.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage730.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage731.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage734.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage737.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage738.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage739.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage740.csv_570,1.0,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage742.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage745.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage746.csv_570,0.14285714285714285,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage747.csv_570,1.0,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage748.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage750.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage752.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage753.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage754.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage757.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage758.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage759.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage762.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage763.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage764.csv_570,0.42857142857142855,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage765.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage768.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage769.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage770.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage773.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage775.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage776.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage777.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage779.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage780.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage781.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage782.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage785.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage786.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage787.csv_570,0.14285714285714285,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage789.csv_570,0.5833333333333334,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage79.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage790.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage791.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage792.csv_570,0.42857142857142855,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage795.csv_570,0.14285714285714285,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage799.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage8.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage80.csv_570,0.14285714285714285,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage800.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage801.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage802.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage803.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage804.csv_570,1.0,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage806.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage807.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage808.csv_570,0.2857142857142857,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage81.csv_570,1.0,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage810.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage811.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage812.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage814.csv_570,0.2857142857142857,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage815.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage818.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage819.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage820.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage821.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage822.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage823.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage824.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage826.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage827.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage83.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage830.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage831.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage832.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage834.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage835.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage836.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage839.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage840.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage841.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage845.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage846.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage847.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage849.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage85.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage850.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage851.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage854.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage858.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage859.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage861.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage864.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage865.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage866.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage867.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage87.csv_570,1.0,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage871.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage877.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage88.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage880.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage882.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage883.csv_570,0.14285714285714285,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage885.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage886.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,netsim,netsim,netsim,netul,netul,netul,netsim,netsim,netsim,netul,netul,netul
+frankenlanguage887.csv_570,0.9166666666666666,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage888.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage889.csv_570,0.6,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage890.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage891.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage893.csv_570,0.14285714285714285,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage894.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage898.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage90.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,malume,malume,malume,mame,mame,mame,baba,baba omukulu,baba omncane,babakazi,babakazi,babakazi
+frankenlanguage900.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage902.csv_570,0.75,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,däd’,däd’,däd’,tädi,tädi,tädi,däd’,däd’,däd’,tädi,tädi,tädi
+frankenlanguage904.csv_570,0.25,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage905.csv_570,0.14285714285714285,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage907.csv_570,1.0,na,na,na,na,na,asowaala,na,na,na,na,na,na,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage910.csv_570,0.5,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage912.csv_570,0.5,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage913.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage914.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage916.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage917.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage918.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage919.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage92.csv_570,0.25,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,-l-atɨ,-l-atɨ,-l-atɨ,e'u,e'u,e'u,papa,papa,papa,pipi,pipi,pipi
+frankenlanguage920.csv_570,0.2857142857142857,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage924.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage926.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage927.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage931.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage932.csv_570,0.5,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage934.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage936.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage937.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage938.csv_570,0.25,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage940.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage941.csv_570,0.5,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage942.csv_570,0.2857142857142857,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,khuan ńjai,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage943.csv_570,1.0,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage947.csv_570,0.5,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,dayı,dayı,na,teyze,teyze,na,amca,amca,na,hala,hala
+frankenlanguage949.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage95.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage952.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage953.csv_570,1.0,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,na,maghiha,maghiha,na,na,na,na,maghiha,maghiha,na,na,na
+frankenlanguage956.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage958.csv_570,0.5,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage959.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage96.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage960.csv_570,0.5,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage961.csv_570,0.5833333333333334,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,garugi:,garugi:,garugi:,walgan,walgan,walgan,garugi:,garugi:,garugi:,gamiyan,gamiyan,gamiyan
+frankenlanguage962.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage963.csv_570,0.5,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,luŋ,luŋ,luŋ,pa:,pa:,pa:,luŋ,luŋ,luŋ,pa:,pa:,pa:
+frankenlanguage964.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage967.csv_570,0.14285714285714285,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage971.csv_570,0.25,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage972.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,cóca,cóca,cóca,huáata,huáata,huáata,épa,épa,épa,náchi,náchi,náchi
+frankenlanguage974.csv_570,0.2857142857142857,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage976.csv_570,0.25,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage977.csv_570,0.25,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,oy-akno,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage978.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage979.csv_570,0.25,cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),cacera (bhāi),kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage98.csv_570,0.2857142857142857,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage980.csv_570,0.5,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,waas,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage981.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,kʸakʸa,kʸakʸa,kʸakʸa,-c̷itta ɬašši,-c̷itta ɬašši,-c̷itta ɬašši,-tačču ɬašši,-tačču ɬašši,-tačču ɬašši,kuku,kuku,kuku
+frankenlanguage982.csv_570,0.5,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,qʼuʕndɨ rišidbir,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage984.csv_570,0.25,primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],primu],na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage985.csv_570,1.0,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,o-tam-ru,o-tam-ru,o-tam-ru,yɨ-son,yɨ-son,yɨ-son,yɨɨm,yɨɨm,yɨɨm,o-tam-ru,o-tam-ru,o-tam-ru
+frankenlanguage986.csv_570,0.2857142857142857,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,na,menamama,na,na,beddamma,na,na,beddava,nanno,sowdamma,sowdamma,sowdamma
+frankenlanguage988.csv_570,0.75,mzala,mzala,mzala,ukanina,ukanina,ukanina,mfo,mfo,mfo,mzala,mzala,mfo,māmū,māmū,māmū,māsī,māsī,māsī,tāyā,tāyā,tāyā,bhūyā,bhūyā,bhūyā
+frankenlanguage989.csv_570,0.6,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage99.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,acha,acha,na,atung,achi,na,awa di,adai,na,apa,amoi
+frankenlanguage990.csv_570,0.5,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,kuzen,na,na,na,na,na,na,na,na,beme ja'aka,na,jaka yo'owe,na
+frankenlanguage993.csv_570,0.25,jóncho,jóncho,jóncho,cóco,cóco,cóco,jóncho,jóncho,jóncho,jóncho,jóncho,jóncho,kawo,kawo,kawo,kawo,kawo,kawo,baaba,baaba,baaba,wobna,wobna,wobna
+frankenlanguage994.csv_570,0.6666666666666666,aai,aai,aai,na,na,na,na,na,na,aai,aai,na,na,"娘舅, 舅舅","娘舅, 舅舅",na,娘姨xx,na,na,"大伯, 伯伯",阿叔,na,"嬷嬷, 好伯",娘娘
+frankenlanguage995.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nindɨ šu,nindɨ šu,nindɨ šu,nindɨ riši,nindɨ riši,nindɨ riši,didtɨ šu,didtɨ šu,didtɨ šu,didtɨ riši,didtɨ riši,didtɨ riši
+frankenlanguage996.csv_570,0.25,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,bratan,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage997.csv_570,0.6666666666666666,thaatha,thaatha,thaatha,na,na,na,na,na,na,thaatha,thaatha,na,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
+frankenlanguage998.csv_570,0.25,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,nepa,na,"yaake, awa","yaake, awa",na,papa,papa,na,mae,mae,na,arombo,arombo
