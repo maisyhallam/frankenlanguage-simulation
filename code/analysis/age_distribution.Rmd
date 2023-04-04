@@ -50,14 +50,95 @@ kinbank <- real_data %>%
 ```{r}
 sym_proportion %>%
   ggplot(aes(mean_symmetrical)) +
-  geom_density(fill = 'lightblue', alpha = 0.5) +
+  geom_density(fill = 'lightblue', alpha = 1) +
   geom_vline(aes(xintercept = 0.1373), color="navy", linetype="dashed", size=0.5) +
   labs(
-    title = 'Proportion of 1,1 gender symmetry scores',
+    title = 'Distribution of 1,1 age symmetry scores',
     color = legend) +
   xlab('Proportion of 1,1 symmetry') +
-  scale_x_continuous(breaks = scales::pretty_breaks(n = 10))
+  xlim(0,0.15)
+
+ggsave('plots/age_1,1_density.png')
   
 ```
 
+```{r}
+proportion_10 <- group_by(data,SET) %>%
+  summarise(
+    mean = mean(AGE == '[1, 0]')
+  )
+
+proportion_01 <- group_by(data,SET) %>%
+  summarise(
+    mean = mean(AGE == '[0, 1]')
+  )
+
+proportion_00 <- group_by(data,SET) %>%
+  summarise(
+  mean = mean(AGE == '[0, 0]')
+  )
+```
+
+```{r}
+kinbank_prop_10 <- real_data %>%
+  summarise(
+    mean = mean(AGE == '[1, 0]')
+)
+
+kinbank_prop_01 <- real_data %>%
+  summarise(
+    mean = mean(AGE == '[0, 1]')
+)
+
+kinbank_prop_00 <- real_data %>%
+  summarise(
+    mean = mean(AGE == '[0, 0]')
+)
+
+kinbank_prop_10
+kinbank_prop_01
+kinbank_prop_00
+```
+
+```{r}
+proportion_10 %>%
+  ggplot(aes(mean)) +
+  geom_density(fill = 'lightblue', alpha = 1) +
+  geom_vline(aes(xintercept = 0.4641), color="navy", linetype="dashed", size=0.5) +
+  labs(
+    title = 'Proportion of 1,0 age asymmetry scores',
+    color = legend) +
+  xlab('Proportion of 1,0 asymmetry') +
+  xlim(0.4,0.7)
+
+ggsave('plots/age_1,0_density.png')
+```
+
+```{r}
+proportion_01 %>%
+  ggplot(aes(mean)) +
+  geom_density(fill = 'lightblue', alpha = 1) +
+  geom_vline(aes(xintercept = 0.3649), color="navy", linetype="dashed", size=0.5) +
+  labs(
+    title = 'Proportion of 0,1 age symmetry scores',
+    color = legend) +
+  xlab('Proportion of 0,1 asymmetry') +
+  xlim(0,0.4)
+
+ggsave('plots/age_0,1_density.png')
+```
+
+```{r}
+proportion_00 %>%
+  ggplot(aes(mean)) +
+  geom_density(fill = 'lightblue', alpha = 1) +
+  geom_vline(aes(xintercept = 0.2686), color="navy", linetype="dashed", size=0.5) +
+  labs(
+    title = 'Proportion of 0,0 age asymmetry scores',
+    color = legend) +
+  xlab('Proportion of 0,0 symmetry') +
+  xlim(0,0.4)
+
+ggsave('plots/age_0,0_density.png')
+```
 

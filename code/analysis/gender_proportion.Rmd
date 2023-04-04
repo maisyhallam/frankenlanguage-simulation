@@ -1,0 +1,234 @@
+---
+title: "gender_distribution"
+author: "Maisy Hallam"
+date: "2023-02-10"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = here::here())
+library(tidyverse)
+library(lme4)
+
+```
+
+
+```{r}
+ICS_files <- list.files(path="data/ICS/",pattern="*.csv",full.names=TRUE)
+ICS_data <- do.call(rbind, lapply(ICS_files, function(x) read.csv(x)))
+
+
+```
+
+
+
+```{r}
+ICS_data <- ICS_data %>%
+  mutate(
+    TYPE = ifelse (grepl('frankenlanguage', LANGUAGE),
+    'simulation',
+    'kinbank'
+  ))
+```
+
+```{r}
+simulation_data <- filter(ICS_data,TYPE == 'simulation')
+kinbank_data <- filter(ICS_data,TYPE == 'kinbank')
+```
+
+```{r}
+sim_sample <- sample_n(simulation_data,600, replace=FALSE)
+kinbank_sample <- sample_n(kinbank_data,600,replace=FALSE)
+```
+
+```{r}
+ICS_sampled <- rbind(sim_sample,kinbank_sample)
+```
+
+```{r}
+ICS_sampled %>%
+  ggplot(aes(SCORE,fill = TYPE)) +
+  geom_density(alpha = 0.5) +
+  labs(
+    title = 'Proportion of categories that are predictable',
+    color = legend) +
+  xlab('Proportion of internal co-selection') +
+  xlim(0,1)
+
+#ggsave('plots/ICS_density.png')
+
+```
+
+```{r}
+ICS_sampled %>%
+  ggplot(aes(TYPE,SCORE,fill = TYPE)) +
+  geom_violin() +
+  geom_jitter(width = 0.1, alpha = 0.2) +
+  labs(
+    title = "Proportion of predictable relationships",
+    color = legend) +
+  xlab('Proportion of ICS')
+
+#ggsave('plots/ICS_jitter.png')
+```
+
+## Proportion of gender symmetry
+
+```{r import files}
+gender_prop_files <- list.files(path="data/gender/prop/",pattern="*.csv",full.names=TRUE)
+gender_data <- do.call(rbind, lapply(gender_prop_files, function(x) read.csv(x)))
+```
+
+```{r mutate data to include which dataset it's from}
+gender_data <- gender_data %>%
+  mutate(
+    
+    TYPE = ifelse (grepl('frankenlanguage', LANGUAGE),
+    'simulation',
+    'kinbank'
+  ))
+```
+
+```{r remove extra headers (run twice)}
+gender_data <- gender_data[-1,]
+```
+
+```{r make data numeric}
+gender_data$GEN_0 <- as.numeric(gender_data$GEN_0)
+
+gender_data$GEN_1 <- as.numeric(gender_data$GEN_1)
+
+```
+
+```{r split the data by dataset}
+simulation_proportions <- filter(gender_data,TYPE == 'simulation')
+kinbank_proportions <- filter(gender_data,TYPE == 'kinbank')
+```
+
+```{r sample the data}
+sim_prop_sample <- sample_n(simulation_proportions,1000, replace=FALSE)
+kinbank_prop_sample <- sample_n(kinbank_proportions,1000,replace=FALSE)
+```
+
+```{r combine samples}
+gender_sampled <- rbind(sim_prop_sample,kinbank_prop_sample)
+```
+
+
+```{r plot the data}
+gender_sampled %>%
+  ggplot(aes(TYPE,GEN_0,fill = TYPE)) +
+  geom_violin() +
+  geom_jitter(width = 0.1, alpha = 0.2) +
+  labs(
+    title = "Proportion of relationships that are distinguished by gender in Ego's generation",
+    color = legend) +
+  xlab('Proportion of relationships')
+
+#ggsave('plots/gender_proportion_jitter.png')
+```
+
+```{r}
+gender_sampled %>%
+  ggplot(aes(GEN_0,fill = TYPE)) +
+  geom_density(alpha = 0.5) +
+  geom_rug() +
+  labs(
+    title = "Distribution of relationships that are distinguished by gender in Ego's generation",
+    color = legend) +
+  xlab('Proportion of relationships') +
+  xlim(0,1)
+
+#ggsave('plots/gender_g1_proportion_density.png')
+```
+
+```{r}
+gender_sampled %>%
+  ggplot(aes(GEN_1,fill = TYPE)) +
+  geom_density(alpha = 0.5) +
+  geom_rug() +
+  labs(
+    title = "Distribution of relationships that are distinguished by gender in Ego's Parents' generation",
+    color = legend) +
+  xlab('Proportion of relationships') +
+  xlim(0,1)
+
+#ggsave('plots/gender__g2_proportion_density.png')
+```
+
+
+```{r}
+gender_sampled %>%
+  ggplot(aes(x=GEN_0, y=GEN_1,color=TYPE)) +
+  geom_jitter(alpha=0.2,width = 0.2) +
+  xlim(0,1) +
+  ylim(0,1) +
+  geom_smooth(method=lm)
+```
+
+Plotting just the kinbank data to see if there is a correlation between proportion of GEN_0 gender distinctions and proportion of GEN_1 gender distinctions.
+
+```{r}
+kinbank_proportions %>%
+  ggplot(aes(x=GEN_0, y=GEN_1)) +
+  geom_jitter(alpha=0.2,width = 0.2) +
+  xlim(0,1) +
+  ylim(0,1) +
+  geom_smooth(method=lm,se=FALSE)
+```
+
+```{r}
+lmGender <- lm(GEN_0 ~ GEN_1, data=kinbank_proportions)
+lmerGender <- lmer(GEN_0 ~ GEN_1 + (1 | LANGUAGE), data=kinbank_proportions)
+
+summary(lmGender)
+summary(lmerGender)
+```
+
+
+# Comparing Indo-European languages with Austronesian languages
+
+```{r read language family data}
+ie_g <- read_csv('data/gender/prop/families/kinbank_Indo-European.csv')
+an_g <- read_csv('data/gender/prop/families/kinbank_Austronesian.csv')
+```
+
+```{r}
+ie_g_sample <- sample_n(ie,95, replace=FALSE)
+an_g_sample <- sample_n(am,95,replace=FALSE)
+```
+
+
+```{r}
+iean_g <- rbind(ie_g_sample,an_g_sample)
+```
+
+```{r}
+iean_g %>%
+  ggplot(aes(GEN_0,fill = SET)) +
+  geom_density(alpha = 0.5) +
+  labs(
+    title = "Distribution of relationships that are distinguished by gender in Ego's generation",
+    color = legend) +
+  xlab('Proportion of relationships') +
+  xlim(0,1)
+```
+
+```{r}
+iean_g %>%
+  ggplot(aes(GEN_1,fill = SET)) +
+  geom_density(alpha = 0.5) +
+  labs(
+    title = "Distribution of relationships that are distinguished by gender in Ego's parents' generation",
+    color = legend) +
+  xlab('Proportion of relationships') +
+  xlim(0,1)
+```
+
+```{r}
+iean_g %>%
+  ggplot() +
+  geom_jitter(aes(x=GEN_0, y=GEN_1,color=SET),alpha=0.2)
+```
+

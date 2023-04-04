@@ -2,8 +2,8 @@
 structure of kinship systems, using the KinBank data (www.kinbank.net).
 
 Making a frankenlanguage involves taking the kin terms from Generation 0 of
-one kinship system, and the kin terms from Generation +1 of another kinship
-system, and stitching them together - hence the reference to frankenstein's monster.
+one kinship system and the kin terms from Generation +1 of another kinship
+system, and then stitching them together - hence the reference to frankenstein's monster.
 
 I've done this in order to work out whether there are statistical regularities
 in the patterns of kinship systems crosslinguistically - by running my analysis
@@ -43,7 +43,7 @@ families = ['Austroasiatic', 'Sino-Tibetan', 'Afro-Asiatic',
 'Atlantic-Congo', 'Uralic', 'Tupian']
 
 def get_csv_files():
-    """Creates a dictionary where keys are language families and values are kinbank filenames."""
+    """Creates a dictionary where keys are language families (directories) and values are kinbank filenames."""
     files = {}
     for family in families:
         path = '../../kinbank/raw/' + family

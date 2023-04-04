@@ -2,7 +2,9 @@
 title: "gender_distribution"
 author: "Maisy Hallam"
 date: "2023-02-10"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -12,8 +14,9 @@ library(tidyverse)
 library(readr)
 ```
 
-Import the gender simulation data. It has three columns: language number (1-1000),
-gender symmetry score, and set (which simulation it comes from.)
+Import the simulation data. It has three columns: language number (1-1000),
+gender symmetry score, and set (which simulation run it comes from.)
+
 ```{r}
 gender_sims <- list.files(path="data/gender/new/",pattern="*.csv",full.names=TRUE)
 data <- do.call(rbind, lapply(gender_sims, function(x) read.csv(x)))
@@ -21,6 +24,7 @@ data <- do.call(rbind, lapply(gender_sims, function(x) read.csv(x)))
 
 ```
 
+Import the real language data - layout same as above.
 ```{r}
 real_data <- read_csv('data/kinbank_gender.csv')
 ```
@@ -29,6 +33,7 @@ real_data <- read_csv('data/kinbank_gender.csv')
 ```{r}
 data$GENDER <- as.factor(data$GENDER)
 ```
+
 
 ```{r}
 sym_proportion <- group_by(data,SET) %>%
@@ -53,14 +58,96 @@ kinbank <- real_data %>%
 ```{r}
 sym_proportion %>%
   ggplot(aes(mean_symmetrical)) +
-  geom_density(fill = 'lightblue', alpha = 0.5) +
+  geom_density(fill = 'lightblue', alpha = 1) +
   geom_vline(aes(xintercept = 0.7684), color="navy", linetype="dashed", size=0.5) +
   labs(
     title = 'Proportion of 1,1 gender symmetry scores',
     color = legend) +
   xlab('Proportion of 1,1 symmetry') +
-  scale_x_continuous(breaks = scales::pretty_breaks(n = 10))
-  
+  xlim(0.75,0.9)
+
+ggsave('plots/gender_1,1_density.png')
 ```
 
+```{r}
+proportion_10 <- group_by(data,SET) %>%
+  summarise(
+    mean = mean(GENDER == '[1, 0]')
+  )
+
+proportion_01 <- group_by(data,SET) %>%
+  summarise(
+    mean = mean(GENDER == '[0, 1]')
+  )
+
+proportion_00 <- group_by(data,SET) %>%
+  summarise(
+    mean = mean(GENDER == '[0, 0]')
+  )
+
+proportion_10
+```
+
+```{r}
+kinbank_prop_10 <- real_data %>%
+  summarise(
+    mean = mean(GENDER == '[1, 0]')
+)
+
+kinbank_prop_01 <- real_data %>%
+  summarise(
+    mean = mean(GENDER == '[0, 1]')
+)
+
+kinbank_prop_00 <- real_data %>%
+  summarise(
+    mean = mean(GENDER == '[0, 0]')
+)
+
+kinbank_prop_10
+kinbank_prop_01
+kinbank_prop_00
+```
+
+```{r}
+proportion_10 %>%
+  ggplot(aes(mean)) +
+  geom_density(fill = 'lightblue', alpha = 1) +
+  geom_vline(aes(xintercept = 0.037), color="navy", linetype="dashed", size=0.5) +
+  labs(
+    title = 'Proportion of 1,0 gender symmetry scores',
+    color = legend) +
+  xlab('Proportion of 1,0 asymmetry') +
+  xlim(0,0.10)
+
+ggsave('plots/gender_1,0_density.png')
+```
+
+```{r}
+proportion_01 %>%
+  ggplot(aes(mean)) +
+  geom_density(fill = 'lightblue', alpha = 1) +
+  geom_vline(aes(xintercept = 0.1703), color="navy", linetype="dashed", size=0.5) +
+  labs(
+    title = 'Proportion of 0,1 gender symmetry scores',
+    color = legend) +
+  xlab('Proportion of 0,1 asymmetry') +
+  xlim(0,0.2)
+
+ggsave('plots/gender_0,1_density.png')
+```
+
+```{r}
+proportion_00 %>%
+  ggplot(aes(mean)) +
+  geom_density(fill = 'lightblue', alpha = 1) +
+  geom_vline(aes(xintercept = 0.0278), color="navy", linetype="dashed", size=0.5) +
+  labs(
+    title = 'Proportion of 0,0 gender symmetry scores',
+    color = legend) +
+  xlab('Proportion of 0,0 symmetry') +
+  xlim(0,0.1)
+
+ggsave('plots/gender_0,0_density.png')
+```
 

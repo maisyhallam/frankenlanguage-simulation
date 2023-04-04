@@ -1,0 +1,79 @@
+---
+title: "What's wrong with my sims :("
+author: "Maisy Hallam"
+date: "2023-03-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse) # for data preprocessing
+library(ggplot2) # for plotting
+library(lme4) # for model fitting
+```
+
+# Preprocessing the data
+
+## Import the data
+
+First, we import all the raw data.
+
+```{r import}
+gender_prop_files <- list.files(path="data/gender/prop/",pattern="*.csv",full.names=TRUE)
+gender_data <- do.call(rbind, lapply(gender_prop_files, function(x) read.csv(x)))
+```
+
+## Process the data
+
+We add a column TYPE which tells us if the data comes from kinbank or if it is simulated, and we delete the first two columns because I am an idiot who ran my include_headings function too many times.
+
+```{r}
+gender_data <- gender_data %>%
+  mutate(
+    
+    TYPE = ifelse (grepl('frankenlanguage', LANGUAGE),
+    'simulation',
+    'kinbank'
+  ))
+
+gender_data <- gender_data[-2,]
+```
+
+And then we save gender_data to a new CSV file.
+
+```{r}
+write.csv(gender_data, 'data/processed/all_gender_proportions.csv')
+```
+
+Now, let's split `gender_data` into two dataframes - `kinbank` and `simulations`.
+
+```{r}
+kinbank <- filter(gender_data,TYPE == 'simulation')
+simulations <- filter(gender_data,TYPE == 'kinbank')
+```
+
+And save those too.
+
+```{r}
+write.csv(kinbank, 'data/processed/kinbank_gender_proportions.csv')
+write.csv(simulations, 'data/processed/simulated_gender_proportions.csv')
+
+```
+
+# Analysis
+
+We need the means of each SET of data - so all 1000 simulations, plus the kinbank data.
+
+```{r}
+simulations %>% group_by(SET)
+```
+
+
+```{r}
+kinbank %>%
+  ggplot() +
+  geom_bar(aes(x=GEN_0,y=count,fill=sample)
+```
+
+

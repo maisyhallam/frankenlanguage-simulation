@@ -1,42 +1,11 @@
 import sys
 import csv
 import os
+import gender_data as ge
+import age_data as age
+import lineage_data as li
 from collections import Counter
 
-# pairs is a dictionary showing which kinbank shorthands represent which family relationships
-# each tuple in pairs.values represents the pair of kin terms that will be compared for equality
-gender_pairs = {
-'siblings': [('meB','meZ'),('myB','myZ')],
-'m_siblings': [('mMeB','mMeZ'),('mMyB','mMyZ')],
-'f_siblings': [('mFeB','mFeZ'),('mFyB','mFyZ')],
-'mz_cousins': [('mMeZeS','mMeZeD'),('mMeZyS','mMeZyD'),('mMeZS','mMeZD'),
-               ('mMyZeS','mMyZeD'),('mMyZyS','mMyZyD'),('mMyZS','mMyZD'),
-               ('mMZeS','mMZeD'),('mMZyS','mMZyD'),('mMZS','mMZD')],
-'mb_cousins': [('mMeBeS','mMeBeD'),('mMeByS','mMeByD'),('mMeBS','mMeBD'),
-               ('mMyBeS','mMyBeD'),('mMyByS','mMyByD'),('mMyBS','mMyBD'),
-               ('mMBeS','mMBeD'),('mMByS','mMByD'),('mMBS','mMBD')],
-'fz_cousins': [('mFeZeS','mFeZeD'),('mFeZyS','mFeZyD'),('mFeZS','mFeZD'),
-               ('mFyZeS','mFyZeD'),('mFyZyS','mFyZyD'),('mFyZS','mFyZD'),
-               ('mFZeS','mFZeD'),('mFZyS','mFZyD'),('mFZS','mFZD')],
-'fb_cousins': [('mFeBeS','mFeBeD'),('mFeByS','mFeByD'),('mFeBS','mFeBD'),
-               ('mFyBeS','mFyBeD'),('mFyByS','mFyByD'),('mFyBS','mFyBD'),
-               ('mFBeS','mFBeD'),('mFByS','mFByD'),('mFBS','mFBD')]
-}
-
-generation1_pairs = [('meB','meZ'),('myB','myZ'),('mMeZeS','mMeZeD'),('mMeZyS','mMeZyD'),('mMeZS','mMeZD'),
-('mMyZeS','mMyZeD'),('mMyZyS','mMyZyD'),('mMyZS','mMyZD'),('mMZeS','mMZeD'),('mMZyS','mMZyD'),('mMZS','mMZD'),
-('mMeBeS','mMeBeD'),('mMeByS','mMeByD'),('mMeBS','mMeBD'),('mMyBeS','mMyBeD'),('mMyByS','mMyByD'),('mMyBS','mMyBD'),
-('mMBeS','mMBeD'),('mMByS','mMByD'),('mMBS','mMBD'),('mFeZeS','mFeZeD'),('mFeZyS','mFeZyD'),('mFeZS','mFeZD'),
-('mFyZeS','mFyZeD'),('mFyZyS','mFyZyD'),('mFyZS','mFyZD'),('mFZeS','mFZeD'),('mFZyS','mFZyD'),('mFZS','mFZD'),
-('mFeBeS','mFeBeD'),('mFeByS','mFeByD'),('mFeBS','mFeBD'),('mFyBeS','mFyBeD'),('mFyByS','mFyByD'),('mFyBS','mFyBD'),
-('mFBeS','mFBeD'),('mFByS','mFByD'),('mFBS','mFBD')]
-
-generation2_pairs = [('mMeB','mMeZ'),('mMyB','mMyZ'),('mFeB','mFeZ'),('mFyB','mFyZ')]
-
-kin_types = ['siblings','m_siblings','f_siblings','mz_cousins','mb_cousins','fz_cousins','fb_cousins']
-
-generation1 = ['siblings', 'mz_cousins','mb_cousins','fz_cousins','fb_cousins']
-generation2 = ['m_siblings','f_siblings']
 
 # list of language families, ie directory names that the kinbank data is divided into
 families = ['Austroasiatic', 'Sino-Tibetan', 'Afro-Asiatic',
@@ -56,31 +25,79 @@ def get_kin(file_path,type,term):
             kin_terms[parameter] = word
     return kin_terms
 
-def denominator(generation_list,number):
+def denominator(generation_list,feature,number):
     """Returns the number of possible relationships that could have this distinction."""
     denominator = 0
-    for kin_type in generation_list:
-        for pair in gender_pairs[kin_type]:
-            denominator += 1
-    denominator -= number
+
+    if feature == 'gender':
+        for kin_type in generation_list:
+            for pair in ge.pairs[kin_type]:
+                denominator += 1
+        denominator -= number
+
+    elif feature == 'age':
+        for kin_type in generation_list:
+            for pair in age.pairs[kin_type]:
+                denominator += 1
+        denominator -= number
+
+    elif feature == 'lineage':
+        for kin_type in generation_list:
+            for pair in li.pairs[kin_type]:
+                denominator += 1
+        denominator -= number
+
+    else:
+        print('Not a valid feature.')
+
     return denominator
 
-def check_feature_symmetry(ks):
+def check_feature_symmetry(ks,feature):
     """Checks whether the terms used in the language for each pair of kin terms match."""
     results = {}
 
-    for kin in kin_types:
-        count = 0
-        for pair in gender_pairs[kin]:
-            if pair[0] in ks.keys() and pair[1] in ks.keys():
-                if ks[pair[0]] == ks[pair[1]]:
-                    results[pair] = 0
-                else:
-                    results[pair] = 1
-            else:
-                results[pair] = 'null'
+    if feature == 'gender':
 
-    print(results)
+        for kin in ge.kin_types:
+            count = 0
+            for pair in ge.pairs[kin]:
+                if pair[0] in ks.keys() and pair[1] in ks.keys():
+                    if ks[pair[0]] == ks[pair[1]]:
+                        results[pair] = 0
+                    else:
+                        results[pair] = 1
+                else:
+                    results[pair] = 'null'
+
+    elif feature == 'age':
+
+        for kin in age.kin_types:
+            count = 0
+            for pair in age.pairs[kin]:
+                if pair[0] in ks.keys() and pair[1] in ks.keys():
+                    if ks[pair[0]] == ks[pair[1]]:
+                        results[pair] = 0
+                    else:
+                        results[pair] = 1
+                else:
+                    results[pair] = 'null'
+
+    elif feature == 'lineage':
+
+        for kin in li.kin_types:
+            count = 0
+            for pair in li.pairs[kin]:
+                if pair[0] in ks.keys() and pair[1] in ks.keys():
+                    if ks[pair[0]] == ks[pair[1]]:
+                        results[pair] = 0
+                    else:
+                        results[pair] = 1
+                else:
+                    results[pair] = 'null'
+
+    else:
+        print('Not a valid feature.')
+
     return results
 
 def get_csv_files(path):
@@ -107,37 +124,92 @@ def write_symmetry_csv(filename,file,symmetries):
         csvwriter = csv.writer(csv_file)
         csvwriter.writerow([file] + symmetries)
 
-def generation_results(feature_symmetry_results):
-    """Returns the proportion of symmetrical relationships for each generation. A score is null if there wasn't enough information to tell."""
+def generation_results(feature_symmetry_results,feature):
+    """Returns the proportion of gender distinctions for each generation. A score is 'null' if there wasn't enough information to tell."""
     results = {}
     gen1_values = []
     gen2_values = []
 
-    for i in feature_symmetry_results:
-        if i in generation1_pairs:
-            gen1_values.append(feature_symmetry_results[i])
+    if feature == 'gender':
+        for i in feature_symmetry_results:
+            if i in ge.generation1_pairs:
+                gen1_values.append(feature_symmetry_results[i])
+            else:
+                gen2_values.append(feature_symmetry_results[i])
+
+        gen1_nulls = gen1_values.count('null')
+        gen2_nulls = gen2_values.count('null')
+
+        # unsure whether to keep this or not - seems unfair either way to count or not count where there isn't enough data to know for sure if a distinction is made
+        gen1_values = [x for x in gen1_values if x != 'null']
+        gen2_values = [x for x in gen2_values if x != 'null']
+
+        gen1_denominator = denominator(ge.generation1,feature,gen1_nulls)
+        gen2_denominator = denominator(ge.generation2,feature,gen2_nulls)
+
+        if gen1_denominator == 0:
+            results['generation1'] = 'null'
         else:
-            gen2_values.append(feature_symmetry_results[i])
+            results['generation1'] = sum(gen1_values)/gen1_denominator
 
-    gen1_nulls = gen1_values.count('null')
-    gen2_nulls = gen2_values.count('null')
+        if gen2_denominator == 0:
+            results['generation2'] = 'null'
+        else:
+            results['generation2'] = sum(gen2_values)/gen2_denominator
 
-    # unsure whether to keep this or not - seems unfair either way to count or not count where there isn't enough data to know for sure if a distinction is made
-    gen1_values = [x for x in gen1_values if x != 'null']
-    gen2_values = [x for x in gen2_values if x != 'null']
+    elif feature == 'age':
+        for i in feature_symmetry_results:
+            if i in age.generation1_pairs:
+                gen1_values.append(feature_symmetry_results[i])
+            else:
+                gen2_values.append(feature_symmetry_results[i])
 
-    gen1_denominator = denominator(generation1,gen1_nulls)
-    gen2_denominator = denominator(generation2,gen2_nulls)
+        gen1_nulls = gen1_values.count('null')
+        gen2_nulls = gen2_values.count('null')
 
-    if gen1_denominator == 0:
-        results['generation1'] = 'null'
-    else:
-        results['generation1'] = sum(gen1_values)/gen1_denominator
+        # unsure whether to keep this or not - seems unfair either way to count or not count where there isn't enough data to know for sure if a distinction is made
+        gen1_values = [x for x in gen1_values if x != 'null']
+        gen2_values = [x for x in gen2_values if x != 'null']
 
-    if gen2_denominator == 0:
-        results['generation2'] = 'null'
-    else:
-        results['generation2'] = sum(gen2_values)/gen2_denominator
+        gen1_denominator = denominator(age.generation1,feature,gen1_nulls)
+        gen2_denominator = denominator(age.generation2,feature,gen2_nulls)
+
+        if gen1_denominator == 0:
+            results['generation1'] = 'null'
+        else:
+            results['generation1'] = sum(gen1_values)/gen1_denominator
+
+        if gen2_denominator == 0:
+            results['generation2'] = 'null'
+        else:
+            results['generation2'] = sum(gen2_values)/gen2_denominator
+
+    elif feature == 'lineage':
+        for i in feature_symmetry_results:
+            if i in li.generation1_pairs:
+                gen1_values.append(feature_symmetry_results[i])
+            else:
+                gen2_values.append(feature_symmetry_results[i])
+
+        gen1_nulls = gen1_values.count('null')
+        gen2_nulls = gen2_values.count('null')
+
+        # unsure whether to keep this or not - seems unfair either way to count or not count where there isn't enough data to know for sure if a distinction is made
+        gen1_values = [x for x in gen1_values if x != 'null']
+        gen2_values = [x for x in gen2_values if x != 'null']
+
+        gen1_denominator = denominator(li.generation1,feature,gen1_nulls)
+        gen2_denominator = denominator(li.generation2,feature,gen2_nulls)
+
+        if gen1_denominator == 0:
+            results['generation1'] = 'null'
+        else:
+            results['generation1'] = sum(gen1_values)/gen1_denominator
+
+        if gen2_denominator == 0:
+            results['generation2'] = 'null'
+        else:
+            results['generation2'] = sum(gen2_values)/gen2_denominator
 
     return results
 
@@ -159,21 +231,36 @@ def write_headers(filename):
         csvwriter = csv.writer(csv_file)
         csvwriter.writerow(['LANGUAGE','GEN_0','GEN_1','SET'])
 
-def main(data_type,count):
+def main(data_type,count,feature):
     if data_type == 'kinbank':
-        filename = '../data/gender/prop/kinbank.csv'
+        filename = '../data/' + feature + '/prop/kinbank.csv'
         write_headers(filename)
 
         for family in families:
             files = get_csv_files('../kinbank/raw/' + family)
+            # filename = '../data/' + feature + '/prop/kinbank_' + family + '.csv'
+            # write_headers(filename)
 
             for file in files:
                 ks = get_kin('../kinbank/raw/' + family + '/' + file,'parameter','word')
                 language = get_language_name(file)
-                feature_symmetry_results = check_feature_symmetry(ks)
-                gen_results = generation_results(feature_symmetry_results)
+                feature_symmetry_results = check_feature_symmetry(ks,feature)
+                gen_results = generation_results(feature_symmetry_results,feature)
 
-                write_full_csv(filename,language,gen_results,'kinbank')
+                write_full_csv(filename,language,gen_results,'kinbank') # family) #
+
+    if data_type == 'family':
+        for family in families:
+            files = get_csv_files('../kinbank/raw/' + family)
+            filename = '../data/' + feature + '/prop/families/kinbank_' + family + '.csv'
+            write_headers(filename)
+            for file in files:
+                ks = get_kin('../kinbank/raw/' + family + '/' + file,'parameter','word')
+                language = get_language_name(file)
+                feature_symmetry_results = check_feature_symmetry(ks,feature)
+                gen_results = generation_results(feature_symmetry_results,feature)
+
+                write_full_csv(filename,language,gen_results,family)
 
     if data_type == 'frankenlanguage':
         file_path = '../frankenlanguages/'
@@ -181,18 +268,18 @@ def main(data_type,count):
 
         for i in range(int(count)):
             directory_counter += 1
-            filename = '../data/gender/prop/prop_set' + str(directory_counter) + '.csv'
+            filename = '../data/' + feature + '/prop/prop_set' + str(directory_counter) + '.csv'
             files = get_csv_files(file_path + str(directory_counter))
             write_headers(filename)
 
 
             for file in files:
                 ks = get_kin(file_path + str(directory_counter) + '/' + file,'TYPE','TERM')
-                feature_symmetry_results = check_feature_symmetry(ks)
-                gen_results = generation_results(feature_symmetry_results)
+                feature_symmetry_results = check_feature_symmetry(ks,feature)
+                gen_results = generation_results(feature_symmetry_results,feature)
                 language = file + '_' + str(directory_counter)
 
                 write_full_csv(filename,language,gen_results,str(directory_counter))
 
 if __name__ == '__main__':
-    main(sys.argv[1],sys.argv[2])
+    main(sys.argv[1],sys.argv[2],sys.argv[3])

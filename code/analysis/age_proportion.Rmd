@@ -1,0 +1,147 @@
+---
+title: "age_proportion"
+author: "Maisy Hallam"
+date: "2023-03-27"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = here::here())
+library(tidyverse)
+```
+
+```{r import files}
+age_prop_files <- list.files(path="data/age/prop/",pattern="*.csv",full.names=TRUE)
+age_data <- do.call(rbind, lapply(age_prop_files, function(x) read.csv(x)))
+```
+
+```{r mutate data to include which dataset it's from}
+age_data <- age_data %>%
+  mutate(
+    
+    TYPE = ifelse (grepl('frankenlanguage', LANGUAGE),
+    'simulation',
+    'kinbank'
+  ))
+```
+
+```{r remove extra headers (run twice)}
+#age_data <- age_data[-1,]
+```
+
+```{r make data numeric}
+age_data$GEN_0 <- as.numeric(age_data$GEN_0)
+
+age_data$GEN_1 <- as.numeric(age_data$GEN_1)
+
+```
+
+```{r split the data by dataset}
+simulation_proportions <- filter(age_data,TYPE == 'simulation')
+kinbank_proportions <- filter(age_data,TYPE == 'kinbank')
+```
+
+```{r sample the data}
+sim_prop_sample <- sample_n(simulation_proportions,1000, replace=FALSE)
+kinbank_prop_sample <- sample_n(kinbank_proportions,1000,replace=FALSE)
+```
+
+```{r combine samples}
+age_sampled <- rbind(sim_prop_sample,kinbank_prop_sample)
+```
+
+
+```{r plot the data}
+age_sampled %>%
+  ggplot(aes(TYPE,GEN_0,fill = TYPE)) +
+  geom_violin() +
+  geom_jitter(width = 0.1, alpha = 0.2) +
+  labs(
+    title = "Proportion of relationships that are distinguished by age in Ego's generation",
+    color = legend) +
+  xlab('Proportion of relationships')
+
+#ggsave('plots/age_proportion_jitter.png')
+```
+
+```{r}
+age_sampled %>%
+  ggplot(aes(GEN_0,fill = TYPE)) +
+  geom_density(alpha = 0.5) +
+  geom_rug() +
+  labs(
+    title = "Distribution of relationships that are distinguished by age in Ego's generation",
+    color = legend) +
+  xlab('Proportion of relationships') +
+  xlim(0,1)
+
+#ggsave('plots/age_g1_proportion_density.png')
+```
+
+```{r}
+age_sampled %>%
+  ggplot(aes(GEN_1,fill = TYPE)) +
+  geom_density(alpha = 0.5) +
+  geom_rug() +
+  labs(
+    title = "Distribution of relationships that are distinguished by age in Ego's Parents' generation",
+    color = legend) +
+  xlab('Proportion of relationships') +
+  xlim(0,1)
+
+#ggsave('plots/age__g2_proportion_density.png')
+```
+
+```{r}
+age_sampled %>%
+  ggplot() +
+  geom_jitter(aes(x=GEN_0, y=GEN_1,color=TYPE),alpha=0.2,width=0.2) +
+  xlim(0,1) +
+  ylim(0,1)
+```
+
+## Comparing Indo-European with Austronesian
+
+```{r read language family data}
+ie_a <- read_csv('data/age/prop/families/kinbank_Indo-European.csv')
+an_a <- read_csv('data/age/prop/families/kinbank_Austronesian.csv')
+```
+
+```{r}
+ie_a_sample <- sample_n(ie,95, replace=FALSE)
+an_a_sample <- sample_n(am,95,replace=FALSE)
+```
+
+
+```{r}
+iean_a <- rbind(ie_a_sample,an_a_sample)
+```
+
+```{r}
+iean_a %>%
+  ggplot(aes(GEN_0,fill = SET)) +
+  geom_density(alpha = 0.5) +
+  labs(
+    title = "Distribution of relationships that are distinguished by age in Ego's generation",
+    color = legend) +
+  xlab('Proportion of relationships') +
+  xlim(0,1)
+```
+
+```{r}
+iean_a %>%
+  ggplot(aes(GEN_1,fill = SET)) +
+  geom_density(alpha = 0.5) +
+  labs(
+    title = "Distribution of relationships that are distinguished by age in Ego's parents' generation",
+    color = legend) +
+  xlab('Proportion of relationships') +
+  xlim(0,1)
+```
+
+```{r}
+iean_a %>%
+  ggplot() +
+  geom_jitter(aes(x=GEN_0, y=GEN_1,color=SET),alpha=0.2)
+```
